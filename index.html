@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">Bersih-Bersih Pro</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Layanan</a></li>
+                <li><a href="#about">Tentang Kami</a></li>
+                <li><a href="#contact">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section with only image -->
+    <section class="hero">
+        <img src="hero.jpg" alt="Hero Image" class="hero-image">
+    </section>
+
+    <div class="container">
+        <aside class="sidebar">
+            <h3>Paket Layanan</h3>
+            <ul>
+                <li>Pembersihan Harian</li>
+                <li>Pembersihan Mendalam</li>
+                <li>Pembersihan Karpet</li>
+                <li>Disinfeksi</li>
+            </ul>
+        </aside>
+
+        <section class="content">
+            <h1>Selamat Datang di Bersih-Bersih Pro</h1>
+            <p>Kami menyediakan jasa pembersihan rumah dengan kualitas terbaik. Tim profesional kami siap membantu membersihkan rumah Anda, memberikan suasana yang lebih nyaman dan higienis.</p>
+            <h2>Layanan Kami</h2>
+            <div class="services">
+                <div class="service-box">
+                    <h3>Pembersihan Harian</h3>
+                    <p>Solusi cepat untuk menjaga rumah tetap bersih setiap hari.</p>
+                </div>
+                <div class="service-box">
+                    <h3>Pembersihan Mendalam</h3>
+                    <p>Layanan pembersihan menyeluruh hingga sudut-sudut yang sulit dijangkau.</p>
+                </div>
+                <div class="service-box">
+                    <h3>Pembersihan Karpet</h3>
+                    <p>Kami menggunakan alat khusus untuk membersihkan karpet Anda secara maksimal.</p>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Form Pemesanan Online -->
+    <section class="order-form">
+        <h2>Pesan Layanan Pembersihan</h2>
+        <form action="#">
+            <div class="form-group">
+                <label for="name">Nama:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="address">Alamat:</label>
+                <input type="text" id="address" name="address" required>
+            </div>
+            <div class="form-group">
+                <label for="service">Jenis Layanan:</label>
+                <select id="service" name="service" required>
+                    <option value="daily-cleaning">Pembersihan Harian</option>
+                    <option value="deep-cleaning">Pembersihan Mendalam</option>
+                    <option value="carpet-cleaning">Pembersihan Karpet</option>
+                    <option value="disinfection">Disinfeksi</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="message">Pesan Tambahan:</label>
+                <textarea id="message" name="message" rows="6" placeholder="Masukkan pesan tambahan (opsional)"></textarea>
+            </div>
+            <button type="submit" class="submit-btn">Pesan Sekarang</button>
+        </form>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2024 Bersih-Bersih Pro. All Rights Reserved.</p>
+            <p>Email: contact@bersihbersihpro.com | Phone: 0812-1069-3588</p>
+        </div>
+    </footer>
+</body>
+
+</html>
